@@ -15,4 +15,4 @@ jobs:
     - name: Build
       run: dotnet build DemoProj/DemoProj.csproj
     - name: Test
-      run: dotnet test --no-build --verbosity normal
+      run: dotnet test --no-build --verbosity normal DemoProj/DemoProj.csproj
